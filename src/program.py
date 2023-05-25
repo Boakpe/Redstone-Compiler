@@ -2,7 +2,7 @@ from antlr4 import *
 from RedstoneLexer import RedstoneLexer
 
 # Abrir o arquivo para leitura
-caminho_arquivo = '/algoritmos.rstone'
+caminho_arquivo = 'algoritmos.rstone'
 arquivo = FileStream(caminho_arquivo)
 
 # Criar o lexer
