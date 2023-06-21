@@ -49,10 +49,19 @@ FUNC binary_search(INT[] array, INT number) {
     RETURN -1;
 }
 
-//Codigo com erro lexico
+//Codigo com erros lexico
 FUNC soma(INT a, INT b) {
     RETURN $ + b;
 }
+DEF soma2(INT a, INT b) {
+    RETURN a + b;
+}
 
-//Codigo com erro sintatico
-INT i = 2;
+//Codigo com erros sintatico
+INT i <- 2;
+IF i =  2 {
+    RETURN 2
+}
+ELSE
+    RETURN 3;
+
