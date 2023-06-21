@@ -17,6 +17,15 @@ class RedstoneListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by RedstoneParser#variavel.
+    def enterVariavel(self, ctx:RedstoneParser.VariavelContext):
+        pass
+
+    # Exit a parse tree produced by RedstoneParser#variavel.
+    def exitVariavel(self, ctx:RedstoneParser.VariavelContext):
+        pass
+
+
     # Enter a parse tree produced by RedstoneParser#valor.
     def enterValor(self, ctx:RedstoneParser.ValorContext):
         pass
@@ -35,6 +44,15 @@ class RedstoneListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by RedstoneParser#expressão_arimética_mais_genérica.
+    def enterExpressão_arimética_mais_genérica(self, ctx:RedstoneParser.Expressão_arimética_mais_genéricaContext):
+        pass
+
+    # Exit a parse tree produced by RedstoneParser#expressão_arimética_mais_genérica.
+    def exitExpressão_arimética_mais_genérica(self, ctx:RedstoneParser.Expressão_arimética_mais_genéricaContext):
+        pass
+
+
     # Enter a parse tree produced by RedstoneParser#expressão_relacional.
     def enterExpressão_relacional(self, ctx:RedstoneParser.Expressão_relacionalContext):
         pass
@@ -44,12 +62,30 @@ class RedstoneListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by RedstoneParser#expressão_relacional_mais_genérica.
+    def enterExpressão_relacional_mais_genérica(self, ctx:RedstoneParser.Expressão_relacional_mais_genéricaContext):
+        pass
+
+    # Exit a parse tree produced by RedstoneParser#expressão_relacional_mais_genérica.
+    def exitExpressão_relacional_mais_genérica(self, ctx:RedstoneParser.Expressão_relacional_mais_genéricaContext):
+        pass
+
+
     # Enter a parse tree produced by RedstoneParser#expressão_genérica.
     def enterExpressão_genérica(self, ctx:RedstoneParser.Expressão_genéricaContext):
         pass
 
     # Exit a parse tree produced by RedstoneParser#expressão_genérica.
     def exitExpressão_genérica(self, ctx:RedstoneParser.Expressão_genéricaContext):
+        pass
+
+
+    # Enter a parse tree produced by RedstoneParser#expressão_mais_genérica.
+    def enterExpressão_mais_genérica(self, ctx:RedstoneParser.Expressão_mais_genéricaContext):
+        pass
+
+    # Exit a parse tree produced by RedstoneParser#expressão_mais_genérica.
+    def exitExpressão_mais_genérica(self, ctx:RedstoneParser.Expressão_mais_genéricaContext):
         pass
 
 
