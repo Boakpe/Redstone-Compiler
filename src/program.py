@@ -3,7 +3,7 @@ from RedstoneLexer import RedstoneLexer
 from RedstoneParser import RedstoneParser
 
 # Abrir o arquivo para leitura
-caminho_arquivo = 'fatorial.rstone'
+caminho_arquivo = 'algoritmos.rstone'
 arquivo = FileStream(caminho_arquivo)
 
 # Criar o lexer

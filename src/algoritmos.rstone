@@ -6,9 +6,12 @@ FUNC fatorial(INT n) {
 }
 
 FUNC bubble_sort(INT[] array) {
-    INT i <- 0;
-    INT j <- len(array) - 1;
-    INT aux <- 0;
+    INT i;
+    INT j;
+    INT aux;
+    i <- 0;
+    j <- len(array) - 1;
+    aux <- 0;
     WHILE (i < len(array) - 1) {
         j <- len(array) - 1;
         WHILE (j >= i + 1) {
@@ -25,11 +28,15 @@ FUNC bubble_sort(INT[] array) {
 }
 
 FUNC binary_search(INT[] array, INT number) {
-    INT inicio <- 0;
-    INT fim <- len(array) - 1;
+    INT inicio;
+    INT fim; 
+    
+    inicio <- 0;
+    fim <- len(array) - 1;
 
     WHILE (inicio <= fim) {
-        INT meio <- (inicio + fim) / 2;
+        INT meio;
+        meio <- (inicio + fim) / 2;
         IF (array[meio] = number) {
             RETURN meio;
         }
@@ -42,6 +49,10 @@ FUNC binary_search(INT[] array, INT number) {
     RETURN -1;
 }
 
+//Codigo com erro lexico
 FUNC soma(INT a, INT b) {
     RETURN $ + b;
 }
+
+//Codigo com erro sintatico
+INT i = 2;
